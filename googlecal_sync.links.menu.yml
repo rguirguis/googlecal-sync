@@ -1,0 +1,6 @@
+googlecal_sync.config:
+  title: AUC Google Sync Settings
+  route_name: googlecal_sync.config
+  parent: system.admin_config_system
+  description: 'Configure AUC Google Calendar Sync Settings.'
+  weight: 10

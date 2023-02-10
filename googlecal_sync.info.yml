@@ -1,0 +1,7 @@
+name: AUC Google Cal Sync
+type: module
+description: AUC Google Calender events sync.
+core: 8.x
+package: AUC
+dependencies: {  }
+core_version_requirement: ^8 || ^9

@@ -1,0 +1,15 @@
+{
+    "name": "arkdev/event_sync",
+    "description": "Sync Google calendar events into site",
+    "type": "module",
+    "require": {
+        "google/apiclient": "^2.4"
+    },
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Ahmed Saeed",
+            "email": "asaeed@arkdev.net"
+        }
+    ]
+}

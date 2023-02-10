@@ -1,0 +1,6 @@
+services:
+  googlecal_sync.google_http_client:
+    class: Google_Client
+  googlecal_sync.import_events:
+    class: Drupal\googlecal_sync\services\CalendarImport
+    arguments: ['@googlecal_sync.google_http_client', '@config.factory', '@state', '@logger.factory']

@@ -1,0 +1,4 @@
+administer googlecal_sync configuration:
+  title: 'Administer Googlecal configuration'
+  description: 'Authenticate Google Calendars and choose which calendars to use for displaying the working hours.'
+  restrict access: true

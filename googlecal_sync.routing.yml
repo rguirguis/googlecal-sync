@@ -1,0 +1,7 @@
+googlecal_sync.config:
+  path: '/admin/config/system/googlecal_sync'
+  defaults:
+    _title: 'AUC Google Cal Sync Settings'
+    _form: 'Drupal\googlecal_sync\Form\SettingsForm'
+  requirements:
+    _permission: 'administer googlecal_sync configuration'
